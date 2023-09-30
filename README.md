@@ -26,7 +26,7 @@ Il metodo **main** è il metodo principale del programma. Viene eseguito quando 
 - Crea un oggetto **Scanner** per l'input da tastiera.
 - Legge il numero di studenti inserito dall'utente.
 - Crea un array di oggetti **Studente** chiamato **studenti** con una dimensione basata sul numero inserito
-- Utilizza un ciclo **for** per creare nuovi oggetti **Studente** e li memorizza nell'array **studenti**.Dopo aver creato tutti gli studenti, utilizza un altro ciclo `for` per visualizzare i dettagli di ciascuno studente.
+- Utilizza un ciclo **for** per creare nuovi oggetti **Studente** e li memorizza nell'array **studenti**.Dopo aver creato tutti gli studenti, utilizza un altro ciclo for per visualizzare i dettagli di ciascuno studente.
 
 In sostanza, questo metodo è responsabile della creazione degli oggetti **Studente** e della loro visualizzazione.
 
