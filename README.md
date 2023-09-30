@@ -42,13 +42,13 @@ Questa classe consente di creare oggetti studente, di raccogliere informazioni s
 
 
 Le variabili di istanza della classe sono i seguenti 
-    - **nome** e **cognome**: Variabili di tipo **String** che memorizzano il nome e il cognome dello studente.
-    - **corso**: Variabile di tipo **int** che rappresenta il corso di studio dello studente.
-    - **idStudente**: Variabile di tipo **String** che rappresenta un ID univoco generato per lo studente.
-    - **insegnamenti**: Variabile di tipo **String** che tiene traccia degli insegnamenti a cui lo studente è iscritto.
-    - **saldo**: Variabile di tipo **double** che rappresenta il saldo associato allo studente.
-    - **insegnamentoCosto**: Variabile di tipo **double** che rappresenta il costo di ciascun insegnamento.
-    - **id**: Variabile di tipo **int** utilizzata per generare l'ID univoco degli studenti.
+ - **nome** e **cognome**: Variabili di tipo **String** che memorizzano il nome e il cognome dello studente.
+ - **corso**: Variabile di tipo **int** che rappresenta il corso di studio dello studente.
+ - **idStudente**: Variabile di tipo **String** che rappresenta un ID univoco generato per lo studente.
+ - **insegnamenti**: Variabile di tipo **String** che tiene traccia degli insegnamenti a cui lo studente è iscritto.
+ - **saldo**: Variabile di tipo **double** che rappresenta il saldo associato allo studente.
+ - **insegnamentoCosto**: Variabile di tipo **double** che rappresenta il costo di ciascun insegnamento.
+ - **id**: Variabile di tipo **int** utilizzata per generare l'ID univoco degli studenti.
 
 
 ---
