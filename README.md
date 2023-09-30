@@ -6,7 +6,7 @@ Questo è stato il mio primo progetto in Java ed è anche il programma più semp
 
 Richiede alcuni input dall'utente per popolare i dati personali dello studente e procedere poi al pagamento dei suoi insegnamenti inseriti.
 
-Per eseguire il programma, è consigliabile seguire il procedimento indicato nel file "Leggimi".
+Per eseguire il programma, è consigliabile seguire il procedimento indicato nel file "README PRINCIPALE".
 
 ---
 
