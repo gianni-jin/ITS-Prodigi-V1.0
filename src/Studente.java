@@ -1,8 +1,9 @@
 
-
 import java.util.Scanner;
+
 /**
- * Questa classe rappresenta un oggetto studente con dettagli sul suo nome, cognome, corso di studio, ID studente,
+ * Questa classe rappresenta un oggetto studente con dettagli sul suo nome,
+ * cognome, corso di studio, ID studente,
  * insegnamenti a cui è iscritto e il saldo associato.
  */
 public class Studente {
@@ -16,8 +17,10 @@ public class Studente {
     private static int id = 1000;
 
     /**
-     * Costruttore della classe Studente che raccoglie le informazioni dell'utente tramite input da tastiera.
-     * Inizializza il nome, cognome, corso di studio, ID studente e gestisce l'iscrizione agli insegnamenti.
+     * Costruttore della classe Studente che raccoglie le informazioni dell'utente
+     * tramite input da tastiera.
+     * Inizializza il nome, cognome, corso di studio, ID studente e gestisce
+     * l'iscrizione agli insegnamenti.
      */
     public Studente() {
         Scanner sc = new Scanner(System.in);
@@ -25,14 +28,13 @@ public class Studente {
         this.nome = sc.nextLine();
         System.out.print("Inserire il cognome: ");
         this.cognome = sc.nextLine();
-        System.out.print("Inserire il nome completo del corso di studio o digiti -1 per annullare l'operazione:\n" +
+        System.out.print("\"Inserire il numero corrispondente al corso desiderato: \":\n" +
                 "1 - Cyber Security & Cloud Specialist\n" +
                 "2 - Digital Commerce and Performance Manager\n" +
                 "3 - Full Stack Developer & Integrator\n" +
                 "4 - Sviluppatore VR per Metaverso e Gaming\n" +
                 "5 - Cloud Developer\n" +
-                "6 - Data Management Specialist\n" +
-                "Inserire il numero corrispondente al corso desiderato: ");
+                "6 - Data Management Specialist\n");
 
         try {
             this.corso = sc.nextInt();
@@ -44,7 +46,8 @@ public class Studente {
     }
 
     /**
-     * Imposta l'ID univoco dello studente basato sul corso di studio e un contatore statico.
+     * Imposta l'ID univoco dello studente basato sul corso di studio e un contatore
+     * statico.
      */
     private void setStudenteId() {
         ++id;
@@ -53,7 +56,8 @@ public class Studente {
 
     /**
      * Gestisce l'iscrizione agli insegnamenti da parte dello studente.
-     * Gli insegnamenti vengono aggiunti all'elenco degli insegnamenti a cui lo studente è iscritto e
+     * Gli insegnamenti vengono aggiunti all'elenco degli insegnamenti a cui lo
+     * studente è iscritto e
      * il saldo viene aggiornato di conseguenza.
      * L'utente può uscire dalla procedura inserendo 'U'.
      */
@@ -91,13 +95,15 @@ public class Studente {
         double pagamento = in.nextDouble();
         this.saldo -= pagamento;
         System.out.println("-------------------------------------------");
-        System.out.println("**Lo/la studente/studentessa " + this.nome + " " + this.cognome + " ha pagato " + pagamento + "**");
+        System.out.println(
+                "**Lo/la studente/studentessa " + this.nome + " " + this.cognome + " ha pagato " + pagamento + "**");
         this.visualizziSaldo();
         System.out.println("-------------------------------------------");
     }
 
     /**
-     * Restituisce una rappresentazione in formato stringa degli attributi dello studente.
+     * Restituisce una rappresentazione in formato stringa degli attributi dello
+     * studente.
      * Utile per la visualizzazione dei dettagli dello studente.
      */
     public String toString() {
