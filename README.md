@@ -12,7 +12,7 @@ Richiede alcuni input dall'utente per popolare i dati personali dello studente e
 # Dimostrazione
 
 Una volta eseguito il programma, richiede all'utente di inserire qualche input. Come dimostrato qui a seguito:
-![Pasted image 20230929084105](https://github.com/gianni-jin14/ITS-Prodigi-V1.0/assets/129873947/bddebfaf-2a07-415c-930e-f871cf50010a)
+![image](https://github.com/gianni-jin14/ITS-Prodigi-V1.0/assets/129873947/208d87ce-4582-49f9-ad7b-be1e5dcb500a)
 
 ---
 
